@@ -1,0 +1,57 @@
+body {
+    font-family:  Mono, monospace;
+}
+
+header {
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+#header-left {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+  
+#header-left i {
+    margin-right: 10px;
+}
+  
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+  
+header nav li {
+    margin: 0 10px;
+}
+  
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+  
+#user-section {
+    display: flex;
+    align-items: center;
+}
+  
+#user-status {
+    margin-right: 10px;
+}
+  
+footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
+  
